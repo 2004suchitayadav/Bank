@@ -15,8 +15,7 @@ import pickle
 def main():
     st.title("Term Deposite")
     st.sidebar.title("Term Deposite")
-    # st.markdown("Lets Detect Health insurance EMI")
-    # st.sidebar.markdown("Lets Detect Health insurance EMI")
+
 
 #---- load data---
     st.cache(persist=True)
